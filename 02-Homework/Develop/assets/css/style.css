@@ -2,60 +2,64 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
 
 /* start of css */
+
+/* clears the website padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color of the website */
 body {
     background-color: #d9dcd6;
 }
+
+/* styles the top header panel */
 
 header {
     padding: 20px;
@@ -64,15 +68,18 @@ header {
     color: #ffffff;
 }
 
+/* styles different color in the company name */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styles company name */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the top header panel tags listed*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -81,25 +88,26 @@ header nav {
     font-size: 20px;
 }
 
+/* positioning of the a tags listed*/
 header nav ul {
     list-style-type: none;
 }
-
+/* positioning of the a tags listed */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* links to sections of the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* font size for paragraphs */
 p {
     font-size: 16px;
 }
-
-.hero {
+/* main cover image of the website */
+.cover {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -107,22 +115,29 @@ p {
     background-position: center;
 }
 
+/* makes images alternate */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* makes images alternate */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styles the main content of the page  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+.benefit styles side boxes for
+Lead Generation,Brand Awareness, 
+and Cost Management
+ */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,7 +150,7 @@ p {
 }
 
 /*
-.benefit styles side boxes for
+.benefit styles text for side boxes for
 Lead Generation,Brand Awareness, 
 and Cost Management
  */
