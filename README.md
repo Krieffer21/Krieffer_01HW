@@ -5,15 +5,15 @@ The project for homework one, was to take an existing website, clean up the HTML
 ## Example 1- Title
 The screen shot below shows the title I thought was best to give the website to represent the company and breifly descripe what they do.
  
-![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/title)
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/master/02-Homework/screen_shots/title)
 
 ## Example 2- ALT Attribute
 The screen shot below shows a few of the alt attributes of the image elements, that I used to describe the image shown on the website to meet accessibility standards. 
  
-![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/alt)
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/master/02-Homework/screen_shots/alt)
 
 ## Example 3- CSS
 In the CSS file their were redundent blocks of code that I combined together because the seperate blocks  had the same effect on the HTML file. In the example shown in the code below, I made the class benefits, which combined together the repeating CSS code into one block. Thus leaving the code cleaner than I found it. 
 
-![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/benefits)
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/master/02-Homework/screen_shots/benefits)
 
