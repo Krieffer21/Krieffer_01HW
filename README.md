@@ -6,17 +6,17 @@ The project for homework one, was to take an existing website, clean up the HTML
 The screen shot below shows the title I thought was best to give the website to represent the company and breifly descripe what they do.
 
 Inline-style: 
-![alt text](
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/title.png)
 
 ## Example 2- ALT Attribute
 The screen shot below shows a few of the alt attributes of the image elements, that I used to describe the image shown on the website to meet accessibility standards. 
 
 Inline-style: 
-![alt text](
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/alt.png
 
 ## Example 3- CSS
 In the CSS file their were redundent blocks of code that I combined together because the seperate blocks  had the same effect on the HTML file. In the example shown in the code below, I made the class benefits, which combined together the repeating CSS code into one block. Thus leaving the code cleaner than I found it. 
 
 Inline-style: 
-![alt text](
+![alt text](https://github.com/Krieffer21/Krieffer_01HW/tree/master/02-Homework/screen_shots/benefits.png)
 
