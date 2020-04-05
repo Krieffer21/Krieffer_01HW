@@ -8,7 +8,7 @@ The screen shot below shows the title I thought was best to give the website to 
 ![alt text](https://github.com/Krieffer21/Krieffer_01HW/raw/master/02-Homework/screen_shots/title.png)
 
 ## Example 2- ALT Attribute
-The screen shot below shows a few of the alt attributes of the image elements, that I used to describe the image shown on the website to meet accessibility standards. 
+The images in the HTML file did not have alternate text to meet accessibility standards. The screen shot below shows a few examples of alt attributes added to image elements to meet the accessibility standards criteria. 
  
 ![alt text](https://github.com/Krieffer21/Krieffer_01HW/raw/master/02-Homework/screen_shots/alt.png)
 
